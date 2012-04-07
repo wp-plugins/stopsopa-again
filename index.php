@@ -7,9 +7,9 @@ Author URI: http://wordpress.ieonly.com/category/activism/
 Contributors: scheeeli
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8VWNB5QEJ55TJ
 Description: This Widget puts a petition form on your sidebar so that visitors can help fightforthefuture.org stop internet censorship legislation.
-Version: 1.2.04.06
+Version: 1.2.04.08
 */
-$stopSOPA_Version='1.2.04.06';
+$stopSOPA_Version='1.2.04.08';
 $_SESSION['eli_debug_microtime']['include(stopSOPA)'] = microtime(true);
 /**
  * stopSOPA Main Plugin File
@@ -149,7 +149,7 @@ $_SESSION['eli_debug_microtime']['stopSOPA_Widget_Class_widget_end'] = microtime
 		$instance = $old;
 		$instance['title'] = strip_tags($new['title']);
 		$instance['number'] = (int) $new['number'];
-		$instance['excerpt'] = strip_tags($new['excerpt']);
+		$instance['excerpt'] = ($new['excerpt']);
 		return $instance;
 	}
 	function form( $instance ) {
@@ -161,8 +161,6 @@ $_SESSION['eli_debug_microtime']['stopSOPA_Widget_Class_form_start'] = microtime
 		<input type="text" name="'.$this->get_field_name('title').'" id="'.$this->get_field_id('title').'" value="'.$title.'" /></p>
 		<p><label for="'.$this->get_field_id('excerpt').'">Your own introduction:</label><br />
 		<textarea name="'.$this->get_field_name('excerpt').'" id="'.$this->get_field_id('excerpt').'" rows="5">'.$excerpt.'</textarea></p>';
-//		<p><label for="'.$this->get_field_id('excerpt').'">'.__('Show Excerpts').':</label>
-//		<input type="checkbox" name="'.$this->get_field_name('excerpt').'" id="'.$this->get_field_id('excerpt').'" value="yes"'.($excerpt=="yes"?" checked":"").' />yes</p>
 $_SESSION['eli_debug_microtime']['stopSOPA_Widget_Class_form_end'] = microtime(true);
 	}
 }
