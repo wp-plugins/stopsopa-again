@@ -1,23 +1,22 @@
-=== Defend Privacy Widget! Call your Senators Now ===
-Plugin Name: Defend Privacy Widget! Call your Senators Now
+=== Defend Internet Privacy Widget ===
 Plugin URI: http://wordpress.ieonly.com/category/my-plugins/stop-sopa-again/
 Author: Eli Scheetz
 Author URI: http://wordpress.ieonly.com/category/activism/
 Contributors: scheeeli
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8VWNB5QEJ55TJ
-Tags: widget, plugin, sidebar, form, petition, fightforthefuture, censorship, legislation, SOPA, CISPA, Privacy, Senator
-Stable tag: 1.2.07.31
-Version: 1.2.07.31
+Tags: widget, plugin, sidebar, fightforthefuture, censorship, legislation, SOPA, CISPA, PIPA, Defend, Internet, Privacy
+Stable tag: 1.2.11.29
+Version: 1.2.11.29
 Requires at least: 2.6
-Tested up to: 3.4.1
+Tested up to: 3.4.2
 
-Help spread the word and stop CISPA, the internet government surveillance system, before it becomes US law by added this Widget on your sidebar.
+Help spread the word and stop SOPA, CISPA, PIPA, and more. Tell the world that you are a member of the Internet Defense League by adding this Widget on your sidebar.
 
 == Description ==
 
-Just place the Widget on your sidebar to display the contact info for your Senator and help spread the word to stop CISPA, the internet government surveillance system, before it becomes US law.
+Just place the Widget on your sidebar to display your "Internet Defense League" Badge.
 
-Plugin Updated July-31st
+Updated Nov-29th
 
 == Installation ==
 
@@ -29,13 +28,18 @@ Plugin Updated July-31st
 
 = What do I do after I activate the Plugin? =
 
-Go to the Widgets menu in the WordPress Admin and add "Defend Privacy Widget" to your Sidebar or Footer Area.
+Go to the Widgets menu in the WordPress Admin and add "Defend Internet Privacy" Widget to your Sidebar or Footer Area.
 
 = Where can I get more information about this? =
 
-start here http://fightforthefuture.org/defendprivacy/
+[internetdefenseleague.org](http://internetdefenseleague.org/)
+or
+[www.fightforthefuture.org](http://www.fightforthefuture.org/)
 
 == Changelog ==
+
+= 1.2.11.29 =
+* Changed Widget again to display the "Internet Defense League" Badge from fightforthefuture.org.
 
 = 1.2.07.31 =
 * Changed "Stop SOPA Widget" to "Defend Privacy Widget" with a whole new form.
@@ -47,6 +51,9 @@ start here http://fightforthefuture.org/defendprivacy/
 * First versions uploaded to WordPress.
 
 == Upgrade Notice ==
+
+= 1.2.11.29 =
+Changed Widget to display the Internet Defense League Badge.
 
 = 1.2.07.31 =
 Changed Widget from Stop SOPA to Defend Privacy with a whole new form.
